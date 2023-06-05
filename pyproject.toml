@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "spherov2-test"
+version = "0.1.0"
+description = ""
+authors = ["Richard Beattie <richard.beattie91@gmail.com>"]
+readme = "README.md"
+packages = [{include = "spherov2_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+spherov2 = "^0.12"
+bleak = "^0.20.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
