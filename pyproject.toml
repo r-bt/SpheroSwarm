@@ -7,9 +7,9 @@ readme = "README.md"
 packages = [{include = "spherov2_test"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-spherov2 = "^0.12"
+python = "3.11.3"
 bleak = "^0.20.2"
+spherov2 = {path = "/home/rbeattie/Documents/spherov2.py/", develop=true }
 
 
 [build-system]
